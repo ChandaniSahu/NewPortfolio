@@ -149,15 +149,15 @@ export default function Portfolio() {
       visitLink: "https://ebook-chandani.netlify.app/"
     },
     {
-      title: "Tech Fest Management System",
-      description: "Event management platform for college tech fests with registration, scheduling, and participant tracking.",
+      title: "Interactive Mind Map Tool",
+      description: "A web app to explore and organize topics using interactive mind maps.",
       icon: (
         <svg className="w-12 h-12 text-[#0000CD]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
         </svg>
       ),
-      githubLink: "https://github.com/ChandaniSahu/TechfestParticipants",
-      visitLink: "https://mseit-techfest-2025-participate.netlify.app/"
+      githubLink: "https://github.com/ChandaniSahu/MindMap",
+      visitLink: "https://chandani-mindmap.netlify.app/"
     }
   ];
 
@@ -256,7 +256,7 @@ export default function Portfolio() {
         </svg>
       ),
       description: "Professional resume highlighting skills, experience, education, and qualifications.",
-      link: "https://drive.google.com/file/d/1fGiFt1i-_k8HdsxxY1Bup8OpFb333i08/view",    
+      link: "https://drive.google.com/file/d/1AYfg9y9uTh26JErfF6uklc-celPHJ9Z9/view",    
     }
   ];
 
@@ -624,99 +624,158 @@ export default function Portfolio() {
             className="relative"
           >
             {/* Main Experience Card */}
-            <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:scale-105 transition-all duration-300">
+<div className="space-y-10">
 
-              {/* Header Section with Solid Background */}
-              <div className="bg-[#120A8F]50 dark:bg-[#120A8F]/20 px-8 py-6 rounded-t-lg border-b border-gray-300 dark:border-[#120A8F]">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-                  <div className="flex items-center space-x-4">
-                    {/* Company Icon */}
-                    <div className="w-12 h-12 bg-[#120A8F] rounded-lg flex items-center justify-center">
-                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-900 dark:text-white">React Developer</h3>
-                      <p className="text-[#120A8F] dark:text-[#120A8F] font-medium">CrakCode</p>
-                    </div>
-                  </div>
+  {/* Latest Experience */}
+  <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:scale-105 transition-all duration-300">
+    <div className="bg-[#120A8F]50 dark:bg-[#120A8F]/20 px-8 py-6 rounded-t-lg border-b border-gray-300 dark:border-[#120A8F]">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+        <div className="flex items-center space-x-4">
+          <div className="w-12 h-12 bg-[#120A8F] rounded-lg flex items-center justify-center">
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+              Full Stack Developer
+            </h3>
+            <p className="text-[#120A8F] dark:text-[#120A8F] font-medium">
+              Zenix Automotive
+            </p>
+          </div>
+        </div>
 
-                  {/* Date Badge */}
-                  <div className="mt-4 md:mt-0">
-                    <span className="inline-flex items-center px-4 py-2 bg-white dark:bg-gray-800 border border-[#120A8F] dark:border-[#120A8F] text-[#120A8F] dark:text-[#120A8F] rounded-full font-medium text-sm">
-                      <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                      </svg>
-                      Jun 2025 - Present
-                    </span>
-                  </div>
-                </div>
-              </div>
+        <div className="mt-4 md:mt-0">
+          <span className="inline-flex items-center px-4 py-2 bg-white dark:bg-gray-800 border border-[#120A8F] dark:border-[#120A8F] text-[#120A8F] dark:text-[#120A8F] rounded-full font-medium text-sm">
+            Jan 2026 - Present
+          </span>
+        </div>
+      </div>
+    </div>
 
-              {/* Content Section */}
-              <div className="px-8 py-6">
-                {/* Location & Type */}
-                <div className="flex items-center text-gray-600 dark:text-gray-400 mb-6">
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  <span className="text-sm">Remote</span>
-                </div>
+    <div className="px-8 py-6">
+      <div className="flex items-center text-gray-600 dark:text-gray-400 mb-6">
+        <span className="text-sm">Remote</span>
+      </div>
 
-                {/* Responsibilities */}
-                <div className="mb-6">
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center">
-                    <svg className="w-5 h-5 text-[#120A8F] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                    </svg>
-                    Key Responsibilities
-                  </h4>
-                  <ul className="space-y-3">
-                    {[
-                      "SEO Improvement & Performance Optimization",
-                      "Resource Management System UI Responsiveness",
-                      "Debugging & Bug Fixing"
-                    ].map((item, index) => (
-                      <motion.li
-                        key={index}
-                        initial={{ opacity: 0, x: -10 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.4, delay: index * 0.1 }}
-                        viewport={{ once: true }}
-                        className="flex items-start text-gray-700 dark:text-gray-300"
-                      >
-                        <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>{item}</span>
-                      </motion.li>
-                    ))}
-                  </ul>
-                </div>
+      <div className="mb-6">
+        <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+          Key Responsibilities
+        </h4>
+        <ul className="space-y-3">
+          {[
+            "Interactive and responsive UI dashboards",
+            "Data tables with search and multi-filters",
+            "Charts and graphs from JSON data"
+          ].map((item, index) => (
+            <li
+              key={index}
+              className="flex items-start text-gray-700 dark:text-gray-300"
+            >
+              <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
 
-                {/* Tech Stack */}
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
-                    <svg className="w-5 h-5 text-[#120A8F] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                    </svg>
-                    Technologies
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {["React", "JavaScript", "Tailwind CSS", "Git", "Performance Tools"].map((tech, index) => (
-                      <span
-                        key={index}
-                        className="px-3 py-1 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div>
+        <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
+          Technologies
+        </h4>
+        <div className="flex flex-wrap gap-2">
+          {["NextJs", "Node.js", "Tailwind CSS", "MongoDB"].map((tech, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Internship */}
+  <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:scale-105 transition-all duration-300">
+    <div className="bg-[#120A8F]50 dark:bg-[#120A8F]/20 px-8 py-6 rounded-t-lg border-b border-gray-300 dark:border-[#120A8F]">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+        <div className="flex items-center space-x-4">
+          <div className="w-12 h-12 bg-[#120A8F] rounded-lg flex items-center justify-center">
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+              React Developer
+            </h3>
+            <p className="text-[#120A8F] dark:text-[#120A8F] font-medium">
+              CrakCode
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 md:mt-0">
+          <span className="inline-flex items-center px-4 py-2 bg-white dark:bg-gray-800 border border-[#120A8F] dark:border-[#120A8F] text-[#120A8F] dark:text-[#120A8F] rounded-full font-medium text-sm">
+            Jun 2025 - Dec 2025
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div className="px-8 py-6">
+      <div className="flex items-center text-gray-600 dark:text-gray-400 mb-6">
+        <span className="text-sm">Remote</span>
+      </div>
+
+      <div className="mb-6">
+        <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+          Key Responsibilities
+        </h4>
+        <ul className="space-y-3">
+          {[
+            "SEO Improvement & Performance Optimization",
+            "Resource Management System UI Responsiveness",
+            "Debugging & Bug Fixing"
+          ].map((item, index) => (
+            <li
+              key={index}
+              className="flex items-start text-gray-700 dark:text-gray-300"
+            >
+              <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
+          Technologies
+        </h4>
+        <div className="flex flex-wrap gap-2">
+          {["React", "JavaScript", "Tailwind CSS", "Git", "Performance Tools"].map((tech, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
           </motion.div>
         </div>
       </section>
