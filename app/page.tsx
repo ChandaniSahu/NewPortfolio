@@ -149,8 +149,30 @@ export default function Portfolio() {
       visitLink: "https://ebook-chandani.netlify.app/"
     },
     {
+  title: "Techfest Participants Management",
+  description:
+    "A web application for managing university techfest events, including participant registration and event coordination during the festival.",
+  icon: (
+    <svg
+      className="w-12 h-12 text-[#0000CD]"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M17 20h5V4H2v16h5m10 0v-6H7v6m10 0H7m5-16v4m-4 0h8"
+      />
+    </svg>
+  ),
+  githubLink: "https://github.com/ChandaniSahu/TechfestParticipants",
+  visitLink: "https://mseit-techfest-2025-participate.netlify.app/"
+},
+    {
       title: "Interactive Mind Map Tool",
-      description: "A web app to explore and organize topics using interactive mind maps.",
+      description: "Interactive mind map prototype on specific topic - a visual tool to organize and explore concepts hierarchically.",
       icon: (
         <svg className="w-12 h-12 text-[#0000CD]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
@@ -256,7 +278,7 @@ export default function Portfolio() {
         </svg>
       ),
       description: "Professional resume highlighting skills, experience, education, and qualifications.",
-      link: "https://drive.google.com/file/d/1AYfg9y9uTh26JErfF6uklc-celPHJ9Z9/view",    
+      link: "https://drive.google.com/file/d/1EWuiwN0_B088AzTfRO3fOozlLxRxo7nG/view?usp=sharing",    
     }
   ];
 
@@ -540,7 +562,7 @@ export default function Portfolio() {
                   <span className="text-[#1E0C54] dark:text-green-300 font-bold">CGPA: 9.8</span>
                 </div>
               </div>
-              <div className="mt-4 flex items-center text-sm space-x-2 text-gray-600 font-medium">
+              {/* <div className="mt-4 flex items-center text-sm space-x-2 text-gray-600 font-medium">
                 <svg
                   className="w-5 h-5"
                   fill="none"
@@ -551,7 +573,7 @@ export default function Portfolio() {
                   <path strokeWidth="2" strokeLinecap="round" d="M12 6v6l4 2" />
                 </svg>
                 <span>Currently Pursuing</span>
-              </div>
+              </div> */}
             </motion.div>
 
             {/* 10th & 12th Card */}
@@ -638,7 +660,7 @@ export default function Portfolio() {
           </div>
           <div>
             <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-              Full Stack Developer
+              Next Full Stack Developer
             </h3>
             <p className="text-[#120A8F] dark:text-[#120A8F] font-medium">
               Zenix Automotive
@@ -648,7 +670,7 @@ export default function Portfolio() {
 
         <div className="mt-4 md:mt-0">
           <span className="inline-flex items-center px-4 py-2 bg-white dark:bg-gray-800 border border-[#120A8F] dark:border-[#120A8F] text-[#120A8F] dark:text-[#120A8F] rounded-full font-medium text-sm">
-            Jan 2026 - Present
+            Jan 2026 - April 2026
           </span>
         </div>
       </div>
@@ -661,13 +683,15 @@ export default function Portfolio() {
 
       <div className="mb-6">
         <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-          Key Responsibilities
+          What I Have Done
         </h4>
         <ul className="space-y-3">
           {[
-            "Interactive and responsive UI dashboards",
-            "Data tables with search and multi-filters",
-            "Charts and graphs from JSON data"
+            "Built a responsive landing page with carousel UI using Next.js and Tailwind CSS",
+        "Implemented dynamic vehicle and model rendering from JSON data",
+        "Developed an admin dashboard with database-driven content and static sidebar layout",
+        "Handled modal state and parent–child props communication",
+        "Integrated charts and graphs for dashboard analytics"
           ].map((item, index) => (
             <li
               key={index}
@@ -684,7 +708,7 @@ export default function Portfolio() {
 
       <div>
         <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
-          Technologies
+          Technologies I Used
         </h4>
         <div className="flex flex-wrap gap-2">
           {["NextJs", "Node.js", "Tailwind CSS", "MongoDB"].map((tech, index) => (
@@ -712,7 +736,7 @@ export default function Portfolio() {
           </div>
           <div>
             <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-              React Developer
+              React + Firebase Developer
             </h3>
             <p className="text-[#120A8F] dark:text-[#120A8F] font-medium">
               CrakCode
@@ -735,13 +759,15 @@ export default function Portfolio() {
 
       <div className="mb-6">
         <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-          Key Responsibilities
+          What I Have Done
         </h4>
         <ul className="space-y-3">
           {[
-            "SEO Improvement & Performance Optimization",
-            "Resource Management System UI Responsiveness",
-            "Debugging & Bug Fixing"
+             "Improved website SEO and optimized overall performance.",
+        "Designed and developed the complete Resource Management System from scratch.",
+        "Created AI powered email body generation feature ",
+        "Build Toggle Feature (WhatsApp Message) in admin dashboard ",
+        "Debugged and tested features, fixed UI/UX and functional issues, and built a fully responsive UI."
           ].map((item, index) => (
             <li
               key={index}
@@ -758,10 +784,10 @@ export default function Portfolio() {
 
       <div>
         <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
-          Technologies
+          Technologies I Used
         </h4>
         <div className="flex flex-wrap gap-2">
-          {["React", "JavaScript", "Tailwind CSS", "Git", "Performance Tools"].map((tech, index) => (
+          {["React", "Typescript" ,"Firebase","Tailwind CSS"].map((tech, index) => (
             <span
               key={index}
               className="px-3 py-1 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
