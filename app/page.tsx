@@ -116,6 +116,22 @@ export default function Portfolio() {
 
   const projects = [
     {
+  title: "MCQ Generator with Answer Analysis",
+  description: "AI-powered application that generates multiple-choice questions from topics or paragraphs with detailed answer analysis",
+  icon: (
+    <svg className="w-12 h-12 text-[#0000CD]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M9 12h6m-6 4h6M7 4h10a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2z"
+      />
+    </svg>
+  ),
+  githubLink: "https://github.com/Chanakya-Das-Sahu/Paragraph-MCQ-Generator---AI--",
+  visitLink: "https://chanakya-mcq-generator.netlify.app/"
+},
+    {
       title: "Task Management System",
       description: "A comprehensive task and subtask management application with deadline & progress tracking",
       icon: (
