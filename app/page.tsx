@@ -129,7 +129,7 @@ export default function Portfolio() {
     </svg>
   ),
   githubLink: "https://github.com/Chanakya-Das-Sahu/Paragraph-MCQ-Generator---AI--",
-  visitLink: "https://chanakya-mcq-generator.netlify.app/"
+  visitLink: "https://chandani-mcq-generator.netlify.app/"
 },
     {
       title: "Task Management System",
